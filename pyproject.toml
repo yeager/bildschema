@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bildschema"
+version = "0.1.0"
+description = "Visual daily schedule with image support for children with autism"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+authors = [
+    {name = "Daniel Nylander"}
+]
+
+[project.scripts]
+bildschema = "bildschema.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

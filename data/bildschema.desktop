@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Bildschema
+Name[sv]=Bildschema
+Comment=Visual daily schedule with image support for children with autism
+Comment[sv]=Visuellt dagsschema med bildstöd
+Exec=bildschema
+Icon=bildschema
+Terminal=false
+Type=Application
+Categories=Education;Accessibility;
