@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:18+0100\n"
+"PO-Revision-Date: 2026-02-18 09:21+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304956/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/bildschema/window.py:13
+msgid "Wake up"
+msgstr "Vakna"
+
+#: src/bildschema/window.py:14
+msgid "Breakfast"
+msgstr "Frukost"
+
+#: src/bildschema/window.py:15
+msgid "Get dressed"
+msgstr "Klä på sig"
+
+#: src/bildschema/window.py:16
+msgid "School"
+msgstr "Skola"
+
+#: src/bildschema/window.py:17
+msgid "Lunch"
+msgstr "Lunch"
+
+#: src/bildschema/window.py:18
+msgid "Play"
+msgstr "Leka"
+
+#: src/bildschema/window.py:19
+msgid "Dinner"
+msgstr "Middag"
+
+#: src/bildschema/window.py:20
+msgid "Bath"
+msgstr "Bada"
+
+#: src/bildschema/window.py:21
+msgid "Bedtime"
+msgstr "Sovdags"
+
+#: src/bildschema/window.py:78 src/bildschema/main.py:47
+msgid "Bildschema"
+msgstr "Bildschema"
+
+#: src/bildschema/window.py:93
+msgid "Toggle dark/light theme"
+msgstr "Växla mörkt/ljust tema"
+
+#: src/bildschema/window.py:99
+msgid "Keyboard Shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: src/bildschema/window.py:100
+msgid "About Bildschema"
+msgstr "Om Bildschema"
+
+#: src/bildschema/window.py:101
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/bildschema/window.py:108
+msgid "Add activity"
+msgstr "Lägg till aktivitet"
+
+#: src/bildschema/window.py:115
+msgid "Day"
+msgstr "Dag"
+
+#: src/bildschema/window.py:117
+msgid "Week"
+msgstr "Vecka"
+
+#: src/bildschema/window.py:172
+msgid "completed"
+msgstr "klar"
+
+#: src/bildschema/window.py:178
+msgid "Add Activity"
+msgstr "Lägg till aktivitet"
+
+#: src/bildschema/window.py:179
+msgid "Enter activity name:"
+msgstr "Ange aktivitetsnamn:"
+
+#: src/bildschema/window.py:181
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/bildschema/window.py:182
+msgid "Add"
+msgstr "Lägg till"
+
+#: src/bildschema/window.py:185
+msgid "Activity name"
+msgstr "Aktivitetsnamn"
