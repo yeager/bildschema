@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-18 10:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/bildschema/window.py:13
+msgid "Wake up"
+msgstr ""
+
+#: src/bildschema/window.py:14
+msgid "Breakfast"
+msgstr ""
+
+#: src/bildschema/window.py:15
+msgid "Get dressed"
+msgstr ""
+
+#: src/bildschema/window.py:16
+msgid "School"
+msgstr ""
+
+#: src/bildschema/window.py:17
+msgid "Lunch"
+msgstr ""
+
+#: src/bildschema/window.py:18
+msgid "Play"
+msgstr ""
+
+#: src/bildschema/window.py:19
+msgid "Dinner"
+msgstr ""
+
+#: src/bildschema/window.py:20
+msgid "Bath"
+msgstr ""
+
+#: src/bildschema/window.py:21
+msgid "Bedtime"
+msgstr ""
+
+#: src/bildschema/window.py:78 src/bildschema/main.py:47
+msgid "Bildschema"
+msgstr ""
+
+#: src/bildschema/window.py:93
+msgid "Toggle dark/light theme"
+msgstr ""
+
+#: src/bildschema/window.py:99
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/bildschema/window.py:100
+msgid "About Bildschema"
+msgstr ""
+
+#: src/bildschema/window.py:101
+msgid "Quit"
+msgstr ""
+
+#: src/bildschema/window.py:108
+msgid "Add activity"
+msgstr ""
+
+#: src/bildschema/window.py:115
+msgid "Day"
+msgstr ""
+
+#: src/bildschema/window.py:117
+msgid "Week"
+msgstr ""
+
+#: src/bildschema/window.py:172
+msgid "completed"
+msgstr ""
+
+#: src/bildschema/window.py:178
+msgid "Add Activity"
+msgstr ""
+
+#: src/bildschema/window.py:179
+msgid "Enter activity name:"
+msgstr ""
+
+#: src/bildschema/window.py:181
+msgid "Cancel"
+msgstr ""
+
+#: src/bildschema/window.py:182
+msgid "Add"
+msgstr ""
+
+#: src/bildschema/window.py:185
+msgid "Activity name"
+msgstr ""
