@@ -5,20 +5,23 @@ import os
 import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
-from gi.repository import Gtk, Adw, Gio, GLib, Gdk
+from gi.repository import Gtk, Adw, Gio, GLib, Gdk, GdkPixbuf
+
+from . import arasaac
 
 _ = gettext.gettext
 
+# ARASAAC search terms for pictogram lookup (English terms for API)
 SAMPLE_ACTIVITIES = [
-    {"name": _("Wake up"), "icon": "🌅", "minutes": 10},
-    {"name": _("Breakfast"), "icon": "🥣", "minutes": 20},
-    {"name": _("Get dressed"), "icon": "👕", "minutes": 15},
-    {"name": _("School"), "icon": "🏫", "minutes": 360},
-    {"name": _("Lunch"), "icon": "🍽️", "minutes": 30},
-    {"name": _("Play"), "icon": "🎮", "minutes": 60},
-    {"name": _("Dinner"), "icon": "🍝", "minutes": 30},
-    {"name": _("Bath"), "icon": "🛁", "minutes": 20},
-    {"name": _("Bedtime"), "icon": "🌙", "minutes": 10},
+    {"name": _("Wake up"), "icon": "🌅", "arasaac_term": "wake up", "minutes": 10},
+    {"name": _("Breakfast"), "icon": "🥣", "arasaac_term": "breakfast", "minutes": 20},
+    {"name": _("Get dressed"), "icon": "👕", "arasaac_term": "get dressed", "minutes": 15},
+    {"name": _("School"), "icon": "🏫", "arasaac_term": "school", "minutes": 360},
+    {"name": _("Lunch"), "icon": "🍽️", "arasaac_term": "lunch", "minutes": 30},
+    {"name": _("Play"), "icon": "🎮", "arasaac_term": "play", "minutes": 60},
+    {"name": _("Dinner"), "icon": "🍝", "arasaac_term": "dinner", "minutes": 30},
+    {"name": _("Bath"), "icon": "🛁", "arasaac_term": "bath", "minutes": 20},
+    {"name": _("Bedtime"), "icon": "🌙", "arasaac_term": "sleep", "minutes": 10},
 ]
 
 
@@ -40,9 +43,9 @@ class ActivityCard(Gtk.Box):
         hbox.set_margin_top(8)
         hbox.set_margin_bottom(8)
 
-        icon_label = Gtk.Label(label=activity.get("icon", "📋"))
-        icon_label.add_css_class("title-1")
-        hbox.append(icon_label)
+        # Try ARASAAC pictogram, fall back to emoji
+        icon_widget = self._make_icon(activity)
+        hbox.append(icon_widget)
 
         text_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2)
         text_box.set_hexpand(True)
@@ -61,6 +64,26 @@ class ActivityCard(Gtk.Box):
 
         self.append(hbox)
         self._on_done = on_done
+
+    @staticmethod
+    def _make_icon(activity):
+        """Create icon widget: ARASAAC pictogram if available, else emoji."""
+        term = activity.get("arasaac_term")
+        if term:
+            try:
+                provider = arasaac.get_provider()
+                path = provider.get_pictogram(term, lang="en", resolution=96)
+                if path:
+                    pixbuf = GdkPixbuf.Pixbuf.new_from_file_at_scale(
+                        path, 48, 48, True)
+                    image = Gtk.Image.new_from_pixbuf(pixbuf)
+                    image.set_pixel_size(48)
+                    return image
+            except Exception:
+                pass
+        label = Gtk.Label(label=activity.get("icon", "📋"))
+        label.add_css_class("title-1")
+        return label
 
     def _on_toggled(self, btn):
         self.done = btn.get_active()
