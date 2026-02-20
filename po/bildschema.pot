@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 21:04+0100\n"
+"POT-Creation-Date: 2026-02-20 21:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Read aloud"
 msgstr ""
 
-#: src/bildschema/window.py:109 src/bildschema/main.py:241
+#: src/bildschema/window.py:109 src/bildschema/main.py:272
 msgid "Bildschema"
 msgstr ""
 
@@ -69,7 +69,7 @@ msgstr ""
 msgid "Export Schedule"
 msgstr ""
 
-#: src/bildschema/window.py:131 src/bildschema/main.py:127
+#: src/bildschema/window.py:131 src/bildschema/main.py:128
 msgid "Preferences"
 msgstr ""
 
@@ -192,15 +192,15 @@ msgstr ""
 msgid "PDF export requires pycairo"
 msgstr ""
 
-#: src/bildschema/main.py:87
+#: src/bildschema/main.py:88
 msgid "Welcome"
 msgstr ""
 
-#: src/bildschema/main.py:93
+#: src/bildschema/main.py:94
 msgid "Welcome to Bildschema"
 msgstr ""
 
-#: src/bildschema/main.py:95
+#: src/bildschema/main.py:96
 msgid ""
 "Create visual daily schedules with pictures.\n"
 "\n"
@@ -210,95 +210,127 @@ msgid ""
 "✓ Search in Swedish or English"
 msgstr ""
 
-#: src/bildschema/main.py:102
+#: src/bildschema/main.py:103
 msgid "Get Started"
 msgstr ""
 
-#: src/bildschema/main.py:131
+#: src/bildschema/main.py:132
 msgid "General"
 msgstr ""
 
-#: src/bildschema/main.py:135
+#: src/bildschema/main.py:136
 msgid "Appearance"
 msgstr ""
 
-#: src/bildschema/main.py:139
+#: src/bildschema/main.py:140
 msgid "Theme"
 msgstr ""
 
-#: src/bildschema/main.py:140
+#: src/bildschema/main.py:141
 msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/bildschema/main.py:142
+#: src/bildschema/main.py:143
 msgid "System"
 msgstr ""
 
-#: src/bildschema/main.py:142
+#: src/bildschema/main.py:143
 msgid "Light"
 msgstr ""
 
-#: src/bildschema/main.py:142
+#: src/bildschema/main.py:143
 msgid "Dark"
 msgstr ""
 
-#: src/bildschema/main.py:151
+#: src/bildschema/main.py:152
 msgid "Icon Size"
 msgstr ""
 
-#: src/bildschema/main.py:152
+#: src/bildschema/main.py:153
 msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/bildschema/main.py:154
+#: src/bildschema/main.py:155
 msgid "Small"
 msgstr ""
 
-#: src/bildschema/main.py:154
+#: src/bildschema/main.py:155
 msgid "Medium"
 msgstr ""
 
-#: src/bildschema/main.py:154
+#: src/bildschema/main.py:155
 msgid "Large"
 msgstr ""
 
 #: src/bildschema/main.py:166
-msgid "Advanced"
+msgid "Speech"
+msgstr ""
+
+#: src/bildschema/main.py:169
+msgid "Speech Engine"
 msgstr ""
 
 #: src/bildschema/main.py:170
-msgid "ARASAAC Cache"
+msgid "Piper gives natural voices, espeak is robotic but lightweight"
 msgstr ""
 
-#: src/bildschema/main.py:178
-msgid "Cached pictograms"
+#: src/bildschema/main.py:172
+msgid "Automatic"
+msgstr ""
+
+#: src/bildschema/main.py:172
+msgid "Piper (natural)"
+msgstr ""
+
+#: src/bildschema/main.py:172
+msgid "espeak-ng (robotic)"
 msgstr ""
 
 #: src/bildschema/main.py:180
+msgid "Speech Speed"
+msgstr ""
+
+#: src/bildschema/main.py:181
+msgid "Slower speech can be easier to understand"
+msgstr ""
+
+#: src/bildschema/main.py:197
+msgid "Advanced"
+msgstr ""
+
+#: src/bildschema/main.py:201
+msgid "ARASAAC Cache"
+msgstr ""
+
+#: src/bildschema/main.py:209
+msgid "Cached pictograms"
+msgstr ""
+
+#: src/bildschema/main.py:211
 msgid "Clear"
 msgstr ""
 
-#: src/bildschema/main.py:189
+#: src/bildschema/main.py:220
 msgid "Developer"
 msgstr ""
 
-#: src/bildschema/main.py:192
+#: src/bildschema/main.py:223
 msgid "Debug mode"
 msgstr ""
 
-#: src/bildschema/main.py:193
+#: src/bildschema/main.py:224
 msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/bildschema/main.py:222
+#: src/bildschema/main.py:253
 msgid "Cleared"
 msgstr ""
 
-#: src/bildschema/main.py:252
+#: src/bildschema/main.py:283
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
 
-#: src/bildschema/main.py:255
+#: src/bildschema/main.py:286
 msgid ""
 "Visual daily schedules with pictogram support for children with autism and "
 "language disorders.\n"
@@ -307,6 +339,6 @@ msgid ""
 "structure."
 msgstr ""
 
-#: src/bildschema/main.py:267
+#: src/bildschema/main.py:298
 msgid "Autismappar"
 msgstr ""
