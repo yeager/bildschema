@@ -1,110 +1,233 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Daniel Nylander
+# This file is distributed under the same license as the bildschema package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:18+0100\n"
+"POT-Creation-Date: 2026-02-20 20:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/bildschema/window.py:13
-msgid "Wake up"
+#: src/bildschema/main.py:86
+msgid "Welcome"
 msgstr ""
 
-#: src/bildschema/window.py:14
-msgid "Breakfast"
+#: src/bildschema/main.py:92
+msgid "Welcome to Bildschema"
 msgstr ""
 
-#: src/bildschema/window.py:15
-msgid "Get dressed"
+#: src/bildschema/main.py:94
+msgid ""
+"Create visual daily schedules with pictures.\n"
+"\n"
+"✓ Add activities with times and pictograms\n"
+"✓ Check off completed tasks\n"
+"✓ Search 13,000+ ARASAAC pictograms\n"
+"✓ Search in Swedish or English"
 msgstr ""
 
-#: src/bildschema/window.py:16
-msgid "School"
+#: src/bildschema/main.py:101
+msgid "Get Started"
 msgstr ""
 
-#: src/bildschema/window.py:17
-msgid "Lunch"
+#: src/bildschema/main.py:126 src/bildschema/window.py:122
+msgid "Preferences"
 msgstr ""
 
-#: src/bildschema/window.py:18
-msgid "Play"
+#: src/bildschema/main.py:130
+msgid "General"
 msgstr ""
 
-#: src/bildschema/window.py:19
-msgid "Dinner"
+#: src/bildschema/main.py:134
+msgid "Appearance"
 msgstr ""
 
-#: src/bildschema/window.py:20
-msgid "Bath"
+#: src/bildschema/main.py:138
+msgid "Theme"
 msgstr ""
 
-#: src/bildschema/window.py:21
-msgid "Bedtime"
+#: src/bildschema/main.py:139
+msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/bildschema/window.py:78 src/bildschema/main.py:47
+#: src/bildschema/main.py:141
+msgid "System"
+msgstr ""
+
+#: src/bildschema/main.py:141
+msgid "Light"
+msgstr ""
+
+#: src/bildschema/main.py:141
+msgid "Dark"
+msgstr ""
+
+#: src/bildschema/main.py:150
+msgid "Icon Size"
+msgstr ""
+
+#: src/bildschema/main.py:151
+msgid "Size of pictogram icons"
+msgstr ""
+
+#: src/bildschema/main.py:153
+msgid "Small"
+msgstr ""
+
+#: src/bildschema/main.py:153
+msgid "Medium"
+msgstr ""
+
+#: src/bildschema/main.py:153
+msgid "Large"
+msgstr ""
+
+#: src/bildschema/main.py:165
+msgid "Advanced"
+msgstr ""
+
+#: src/bildschema/main.py:169
+msgid "ARASAAC Cache"
+msgstr ""
+
+#: src/bildschema/main.py:177
+msgid "Cached pictograms"
+msgstr ""
+
+#: src/bildschema/main.py:179
+msgid "Clear"
+msgstr ""
+
+#: src/bildschema/main.py:188
+msgid "Developer"
+msgstr ""
+
+#: src/bildschema/main.py:191
+msgid "Debug mode"
+msgstr ""
+
+#: src/bildschema/main.py:192
+msgid "Show extra logging in terminal"
+msgstr ""
+
+#: src/bildschema/main.py:221
+msgid "Cleared"
+msgstr ""
+
+#: src/bildschema/main.py:231 src/bildschema/window.py:101
 msgid "Bildschema"
 msgstr ""
 
-#: src/bildschema/window.py:93
+#: src/bildschema/main.py:242
+msgid "ARASAAC pictograms (https://arasaac.org)"
+msgstr ""
+
+#: src/bildschema/main.py:245
+msgid ""
+"Visual daily schedules with pictogram support for children with autism and "
+"language disorders.\n"
+"\n"
+"Part of the Autismappar suite — free tools for communication and daily "
+"structure."
+msgstr ""
+
+#: src/bildschema/main.py:256
+msgid "Autismappar"
+msgstr ""
+
+#: src/bildschema/window.py:16
+msgid "Wake up"
+msgstr ""
+
+#: src/bildschema/window.py:17
+msgid "Breakfast"
+msgstr ""
+
+#: src/bildschema/window.py:18
+msgid "Get dressed"
+msgstr ""
+
+#: src/bildschema/window.py:19
+msgid "School"
+msgstr ""
+
+#: src/bildschema/window.py:20
+msgid "Lunch"
+msgstr ""
+
+#: src/bildschema/window.py:21
+msgid "Play"
+msgstr ""
+
+#: src/bildschema/window.py:22
+msgid "Dinner"
+msgstr ""
+
+#: src/bildschema/window.py:23
+msgid "Bath"
+msgstr ""
+
+#: src/bildschema/window.py:24
+msgid "Bedtime"
+msgstr ""
+
+#: src/bildschema/window.py:116
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/bildschema/window.py:99
+#: src/bildschema/window.py:123
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/bildschema/window.py:100
+#: src/bildschema/window.py:124
 msgid "About Bildschema"
 msgstr ""
 
-#: src/bildschema/window.py:101
+#: src/bildschema/window.py:125
 msgid "Quit"
 msgstr ""
 
-#: src/bildschema/window.py:108
+#: src/bildschema/window.py:132
 msgid "Add activity"
 msgstr ""
 
-#: src/bildschema/window.py:115
+#: src/bildschema/window.py:139
 msgid "Day"
 msgstr ""
 
-#: src/bildschema/window.py:117
+#: src/bildschema/window.py:141
 msgid "Week"
 msgstr ""
 
-#: src/bildschema/window.py:172
+#: src/bildschema/window.py:196
 msgid "completed"
 msgstr ""
 
-#: src/bildschema/window.py:178
+#: src/bildschema/window.py:202
 msgid "Add Activity"
 msgstr ""
 
-#: src/bildschema/window.py:179
+#: src/bildschema/window.py:203
 msgid "Enter activity name:"
 msgstr ""
 
-#: src/bildschema/window.py:181
+#: src/bildschema/window.py:205
 msgid "Cancel"
 msgstr ""
 
-#: src/bildschema/window.py:182
+#: src/bildschema/window.py:206
 msgid "Add"
 msgstr ""
 
-#: src/bildschema/window.py:185
+#: src/bildschema/window.py:209
 msgid "Activity name"
 msgstr ""
