@@ -8,6 +8,7 @@ gi.require_version('Adw', '1')
 from gi.repository import Gtk, Adw, Gio, GLib, Gdk, GdkPixbuf
 
 from . import arasaac
+from .tts import speak
 
 _ = gettext.gettext
 
@@ -57,6 +58,13 @@ class ActivityCard(Gtk.Box):
         time_label.add_css_class("dim-label")
         text_box.append(time_label)
         hbox.append(text_box)
+
+        speak_btn = Gtk.Button(icon_name="audio-speakers-symbolic")
+        speak_btn.add_css_class("flat")
+        speak_btn.add_css_class("circular")
+        speak_btn.set_tooltip_text(_("Read aloud"))
+        speak_btn.connect("clicked", lambda _: speak(activity["name"], "sv"))
+        hbox.append(speak_btn)
 
         self.check = Gtk.CheckButton()
         self.check.connect("toggled", self._on_toggled)

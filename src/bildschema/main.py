@@ -257,7 +257,8 @@ class BildschemaApp(Adw.Application):
                 "Part of the Autismappar suite — free tools for "
                 "communication and daily structure."
             ),
-            debug_info=f"Version: {__version__}\n"
+            debug_info=f"TTS: {__import__('bildschema.tts', fromlist=['get_tts_info']).get_tts_info()}\n"
+                       f"Version: {__version__}\n"
                        f"GTK: {Gtk.get_major_version()}.{Gtk.get_minor_version()}\n"
                        f"Adwaita: {Adw.get_major_version()}.{Adw.get_minor_version()}\n"
                        f"Python: {sys.version}",
