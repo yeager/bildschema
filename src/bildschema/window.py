@@ -119,6 +119,7 @@ class BildschemaWindow(Adw.ApplicationWindow):
 
         # Menu
         menu = Gio.Menu()
+        menu.append(_("Preferences"), "app.preferences")
         menu.append(_("Keyboard Shortcuts"), "app.shortcuts")
         menu.append(_("About Bildschema"), "app.about")
         menu.append(_("Quit"), "app.quit")
