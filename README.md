@@ -1,74 +1,61 @@
 # Bildschema
 
-Visual daily schedule with image support for children with autism and language disorders.
+[![Version](https://img.shields.io/badge/version-0.2.0-blue)](https://github.com/yeager/bildschema/releases)
+[![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Transifex](https://img.shields.io/badge/Transifex-Translate-green.svg)](https://www.transifex.com/danielnylander/bildschema/)
 
-> **Målgrupp / Target audience:** Barn och vuxna med autism, språkstörning (DLD),
-> intellektuell funktionsnedsättning och andra kognitiva funktionsnedsättningar som
-> behöver visuellt stöd för att förstå och följa dagliga rutiner. Även användbart i
-> förskola, skola och LSS-verksamhet.
->
-> **For:** Children and adults with autism spectrum disorder (ASD), developmental
-> language disorder (DLD), intellectual disabilities, and other cognitive disabilities
-> who benefit from visual supports for daily routines. Also useful in preschools,
-> schools, and disability services.
+Visual daily schedule with image support for children with autism and language disorders — GTK4/Adwaita.
 
-![Screenshot](screenshots/screenshot.png)
+> **For:** Children and adults with autism, developmental language disorder (DLD), ADHD, or intellectual disabilities. Visual daily planning with drag-and-drop image support.
+
+![Screenshot](screenshots/main.png)
 
 ## Features
 
-- Activities displayed as cards with image + text
-- **ARASAAC pictogram support** — automatic download of free pictograms from
-  [ARASAAC](https://arasaac.org) (CC BY-NC-SA, Government of Aragon / Sergio Palao)
-- Emoji fallback when offline or pictograms unavailable
-- Reorderable list, timer per activity, transition warnings
-- Day and week views
-- Dark/light theme toggle
-
-## Free Image Resources
-
-This app supports pictograms from these free/open sources:
-
-| Resource | License | URL |
-|----------|---------|-----|
-| **ARASAAC** | CC BY-NC-SA 4.0 | https://arasaac.org |
-| **OpenMoji** | CC BY-SA 4.0 | https://openmoji.org |
-| **Mulberry Symbols** | CC BY-SA 2.0 UK | https://mulberrysymbols.org |
-| **Sclera** | CC BY-NC 2.0 BE | https://sclera.be |
-
-## Requirements
-
-- Python 3.10+
-- GTK4 / libadwaita
-- PyGObject
+- **Daily schedule** — drag-and-drop visual planning
+- **Image support** — custom images or ARASAAC pictograms
+- **ARASAAC integration** — 13,000+ free pictograms
+- **Categories** — morning, school, afternoon, evening
+- **Print-friendly** — export schedules
+- **Dark/light theme** toggle
 
 ## Installation
 
+### Debian/Ubuntu
+
 ```bash
-# Install dependencies (Fedora/RHEL)
-sudo dnf install python3-gobject gtk4 libadwaita
+echo "deb [signed-by=/usr/share/keyrings/yeager-keyring.gpg] https://yeager.github.io/debian-repo stable main" | sudo tee /etc/apt/sources.list.d/yeager.list
+curl -fsSL https://yeager.github.io/debian-repo/yeager-keyring.gpg | sudo tee /usr/share/keyrings/yeager-keyring.gpg > /dev/null
+sudo apt update && sudo apt install bildschema
+```
 
-# Install dependencies (Debian/Ubuntu)
-sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1
+### Fedora/openSUSE
 
-# Run from source
-PYTHONPATH=src python3 -c "from bildschema.main import main; main()"
+```bash
+sudo dnf config-manager --add-repo https://yeager.github.io/rpm-repo/yeager.repo
+sudo dnf install bildschema
+```
+
+### From source
+
+```bash
+git clone https://github.com/yeager/bildschema.git
+cd bildschema && pip install -e .
+bildschema
 ```
 
 ## ARASAAC Attribution
 
-Pictographic symbols © Government of Aragon, created by Sergio Palao for
-[ARASAAC](https://arasaac.org), distributed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Pictographic symbols © Gobierno de Aragón, created by Sergio Palao for [ARASAAC](https://arasaac.org), distributed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Translation
+
+Help translate on [Transifex](https://www.transifex.com/danielnylander/bildschema/).
 
 ## License
 
-GPL-3.0-or-later
+GPL-3.0-or-later — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Daniel Nylander
-
-## Links
-
-- [GitHub](https://github.com/yeager/bildschema)
-- [Issues](https://github.com/yeager/bildschema/issues)
-- [Translations](https://app.transifex.com/danielnylander/bildschema)
+**Daniel Nylander** — [danielnylander.se](https://danielnylander.se)
