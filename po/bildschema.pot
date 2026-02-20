@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 20:20+0100\n"
+"POT-Creation-Date: 2026-02-20 20:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/bildschema/main.py:86
+#: src/bildschema/main.py:86 src/bildschema/main.py:87
 msgid "Welcome"
 msgstr ""
 
-#: src/bildschema/main.py:92
+#: src/bildschema/main.py:92 src/bildschema/main.py:93
 msgid "Welcome to Bildschema"
 msgstr ""
 
-#: src/bildschema/main.py:94
+#: src/bildschema/main.py:94 src/bildschema/main.py:95
 msgid ""
 "Create visual daily schedules with pictures.\n"
 "\n"
@@ -35,103 +35,105 @@ msgid ""
 "✓ Search in Swedish or English"
 msgstr ""
 
-#: src/bildschema/main.py:101
+#: src/bildschema/main.py:101 src/bildschema/main.py:102
 msgid "Get Started"
 msgstr ""
 
 #: src/bildschema/main.py:126 src/bildschema/window.py:122
+#: src/bildschema/window.py:123 src/bildschema/main.py:127
 msgid "Preferences"
 msgstr ""
 
-#: src/bildschema/main.py:130
+#: src/bildschema/main.py:130 src/bildschema/main.py:131
 msgid "General"
 msgstr ""
 
-#: src/bildschema/main.py:134
+#: src/bildschema/main.py:134 src/bildschema/main.py:135
 msgid "Appearance"
 msgstr ""
 
-#: src/bildschema/main.py:138
+#: src/bildschema/main.py:138 src/bildschema/main.py:139
 msgid "Theme"
 msgstr ""
 
-#: src/bildschema/main.py:139
+#: src/bildschema/main.py:139 src/bildschema/main.py:140
 msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/bildschema/main.py:141
+#: src/bildschema/main.py:141 src/bildschema/main.py:142
 msgid "System"
 msgstr ""
 
-#: src/bildschema/main.py:141
+#: src/bildschema/main.py:141 src/bildschema/main.py:142
 msgid "Light"
 msgstr ""
 
-#: src/bildschema/main.py:141
+#: src/bildschema/main.py:141 src/bildschema/main.py:142
 msgid "Dark"
 msgstr ""
 
-#: src/bildschema/main.py:150
+#: src/bildschema/main.py:150 src/bildschema/main.py:151
 msgid "Icon Size"
 msgstr ""
 
-#: src/bildschema/main.py:151
+#: src/bildschema/main.py:151 src/bildschema/main.py:152
 msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/bildschema/main.py:153
+#: src/bildschema/main.py:153 src/bildschema/main.py:154
 msgid "Small"
 msgstr ""
 
-#: src/bildschema/main.py:153
+#: src/bildschema/main.py:153 src/bildschema/main.py:154
 msgid "Medium"
 msgstr ""
 
-#: src/bildschema/main.py:153
+#: src/bildschema/main.py:153 src/bildschema/main.py:154
 msgid "Large"
 msgstr ""
 
-#: src/bildschema/main.py:165
+#: src/bildschema/main.py:165 src/bildschema/main.py:166
 msgid "Advanced"
 msgstr ""
 
-#: src/bildschema/main.py:169
+#: src/bildschema/main.py:169 src/bildschema/main.py:170
 msgid "ARASAAC Cache"
 msgstr ""
 
-#: src/bildschema/main.py:177
+#: src/bildschema/main.py:177 src/bildschema/main.py:178
 msgid "Cached pictograms"
 msgstr ""
 
-#: src/bildschema/main.py:179
+#: src/bildschema/main.py:179 src/bildschema/main.py:180
 msgid "Clear"
 msgstr ""
 
-#: src/bildschema/main.py:188
+#: src/bildschema/main.py:188 src/bildschema/main.py:189
 msgid "Developer"
 msgstr ""
 
-#: src/bildschema/main.py:191
+#: src/bildschema/main.py:191 src/bildschema/main.py:192
 msgid "Debug mode"
 msgstr ""
 
-#: src/bildschema/main.py:192
+#: src/bildschema/main.py:192 src/bildschema/main.py:193
 msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/bildschema/main.py:221
+#: src/bildschema/main.py:221 src/bildschema/main.py:222
 msgid "Cleared"
 msgstr ""
 
 #: src/bildschema/main.py:231 src/bildschema/window.py:101
+#: src/bildschema/main.py:241
 msgid "Bildschema"
 msgstr ""
 
-#: src/bildschema/main.py:242
+#: src/bildschema/main.py:242 src/bildschema/main.py:252
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
 
-#: src/bildschema/main.py:245
+#: src/bildschema/main.py:245 src/bildschema/main.py:255
 msgid ""
 "Visual daily schedules with pictogram support for children with autism and "
 "language disorders.\n"
@@ -140,7 +142,7 @@ msgid ""
 "structure."
 msgstr ""
 
-#: src/bildschema/main.py:256
+#: src/bildschema/main.py:256 src/bildschema/main.py:266
 msgid "Autismappar"
 msgstr ""
 
@@ -184,50 +186,126 @@ msgstr ""
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/bildschema/window.py:123
+#: src/bildschema/window.py:123 src/bildschema/window.py:124
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/bildschema/window.py:124
+#: src/bildschema/window.py:124 src/bildschema/window.py:125
 msgid "About Bildschema"
 msgstr ""
 
-#: src/bildschema/window.py:125
+#: src/bildschema/window.py:125 src/bildschema/window.py:126
 msgid "Quit"
 msgstr ""
 
-#: src/bildschema/window.py:132
+#: src/bildschema/window.py:132 src/bildschema/window.py:133
 msgid "Add activity"
 msgstr ""
 
-#: src/bildschema/window.py:139
+#: src/bildschema/window.py:139 src/bildschema/window.py:140
 msgid "Day"
 msgstr ""
 
-#: src/bildschema/window.py:141
+#: src/bildschema/window.py:141 src/bildschema/window.py:142
 msgid "Week"
 msgstr ""
 
-#: src/bildschema/window.py:196
+#: src/bildschema/window.py:196 src/bildschema/window.py:197
 msgid "completed"
 msgstr ""
 
-#: src/bildschema/window.py:202
+#: src/bildschema/window.py:202 src/bildschema/window.py:203
 msgid "Add Activity"
 msgstr ""
 
-#: src/bildschema/window.py:203
+#: src/bildschema/window.py:203 src/bildschema/window.py:204
 msgid "Enter activity name:"
 msgstr ""
 
-#: src/bildschema/window.py:205
+#: src/bildschema/window.py:205 src/bildschema/window.py:206
+#: src/bildschema/export.py:145
 msgid "Cancel"
 msgstr ""
 
-#: src/bildschema/window.py:206
+#: src/bildschema/window.py:206 src/bildschema/window.py:207
 msgid "Add"
 msgstr ""
 
-#: src/bildschema/window.py:209
+#: src/bildschema/window.py:209 src/bildschema/window.py:210
 msgid "Activity name"
+msgstr ""
+
+#: src/bildschema/window.py:122 src/bildschema/export.py:142
+msgid "Export Schedule"
+msgstr ""
+
+#: src/bildschema/export.py:26
+msgid "Activity"
+msgstr ""
+
+#: src/bildschema/export.py:26
+msgid "Duration (min)"
+msgstr ""
+
+#: src/bildschema/export.py:26
+msgid "Completed"
+msgstr ""
+
+#: src/bildschema/export.py:31
+msgid "Yes"
+msgstr ""
+
+#: src/bildschema/export.py:31
+msgid "No"
+msgstr ""
+
+#: src/bildschema/export.py:75
+msgid "Daily Schedule"
+msgstr ""
+
+#: src/bildschema/export.py:111
+#, python-format
+msgid "%d min"
+msgstr ""
+
+#: src/bildschema/export.py:143
+msgid "Choose export format:"
+msgstr ""
+
+#: src/bildschema/export.py:146
+msgid "CSV"
+msgstr ""
+
+#: src/bildschema/export.py:147
+msgid "JSON"
+msgstr ""
+
+#: src/bildschema/export.py:148
+msgid "PDF"
+msgstr ""
+
+#: src/bildschema/export.py:167
+msgid "Save Export"
+msgstr ""
+
+#: src/bildschema/export.py:182
+#, python-format
+msgid "Exported %s"
+msgstr ""
+
+#: src/bildschema/export.py:185 src/bildschema/export.py:208
+#, python-format
+msgid "Export error: %s"
+msgstr ""
+
+#: src/bildschema/export.py:190
+msgid "Save PDF"
+msgstr ""
+
+#: src/bildschema/export.py:203
+msgid "PDF exported"
+msgstr ""
+
+#: src/bildschema/export.py:205
+msgid "PDF export requires pycairo"
 msgstr ""
