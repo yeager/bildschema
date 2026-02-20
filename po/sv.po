@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Daniel Nylander
+# This file is distributed under the same license as the bildschema package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-18 10:18+0100\n"
+"POT-Creation-Date: 2026-02-20 20:25+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304956/sv/)\n"
@@ -21,94 +21,302 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/bildschema/window.py:13
-msgid "Wake up"
-msgstr "Vakna"
+#: src/bildschema/main.py:86 src/bildschema/main.py:87
+msgid "Welcome"
+msgstr "Välkommen"
 
-#: src/bildschema/window.py:14
-msgid "Breakfast"
-msgstr "Frukost"
+#: src/bildschema/main.py:92 src/bildschema/main.py:93
+msgid "Welcome to Bildschema"
+msgstr "Välkommen till Bildschema"
 
-#: src/bildschema/window.py:15
-msgid "Get dressed"
-msgstr "Klä på sig"
+#: src/bildschema/main.py:94 src/bildschema/main.py:95
+msgid ""
+"Create visual daily schedules with pictures.\n"
+"\n"
+"✓ Add activities with times and pictograms\n"
+"✓ Check off completed tasks\n"
+"✓ Search 13,000+ ARASAAC pictograms\n"
+"✓ Search in Swedish or English"
+msgstr ""
+"Skapa visuella dagsscheman med bilder.\n"
+"\n"
+"✓ Lägg till aktiviteter med tider och piktogram\n"
+"✓ Markera avslutade uppgifter\n"
+"✓ Sök bland över 13 000 ARASAAC-piktogram\n"
+"✓ Sök på svenska eller engelska"
 
-#: src/bildschema/window.py:16
-msgid "School"
-msgstr "Skola"
+#: src/bildschema/main.py:101 src/bildschema/main.py:102
+msgid "Get Started"
+msgstr "Kom igång"
 
-#: src/bildschema/window.py:17
-msgid "Lunch"
-msgstr "Lunch"
+#: src/bildschema/main.py:126 src/bildschema/window.py:122
+#: src/bildschema/window.py:123 src/bildschema/main.py:127
+msgid "Preferences"
+msgstr "Inställningar"
 
-#: src/bildschema/window.py:18
-msgid "Play"
-msgstr "Leka"
+#: src/bildschema/main.py:130 src/bildschema/main.py:131
+msgid "General"
+msgstr "Allmänt"
 
-#: src/bildschema/window.py:19
-msgid "Dinner"
-msgstr "Middag"
+#: src/bildschema/main.py:134 src/bildschema/main.py:135
+msgid "Appearance"
+msgstr "Utseende"
 
-#: src/bildschema/window.py:20
-msgid "Bath"
-msgstr "Bada"
+#: src/bildschema/main.py:138 src/bildschema/main.py:139
+msgid "Theme"
+msgstr "Tema"
 
-#: src/bildschema/window.py:21
-msgid "Bedtime"
-msgstr "Sovdags"
+#: src/bildschema/main.py:139 src/bildschema/main.py:140
+msgid "Choose light, dark, or follow system"
+msgstr "Välj ljust, mörkt eller följ systemet"
 
-#: src/bildschema/window.py:78 src/bildschema/main.py:47
+#: src/bildschema/main.py:141 src/bildschema/main.py:142
+msgid "System"
+msgstr "System"
+
+#: src/bildschema/main.py:141 src/bildschema/main.py:142
+msgid "Light"
+msgstr "Ljust"
+
+#: src/bildschema/main.py:141 src/bildschema/main.py:142
+msgid "Dark"
+msgstr "Mörkt"
+
+#: src/bildschema/main.py:150 src/bildschema/main.py:151
+msgid "Icon Size"
+msgstr "Ikonstorlek"
+
+#: src/bildschema/main.py:151 src/bildschema/main.py:152
+msgid "Size of pictogram icons"
+msgstr "Storlek på piktogramikoner"
+
+#: src/bildschema/main.py:153 src/bildschema/main.py:154
+msgid "Small"
+msgstr "Små"
+
+#: src/bildschema/main.py:153 src/bildschema/main.py:154
+msgid "Medium"
+msgstr "Medel"
+
+#: src/bildschema/main.py:153 src/bildschema/main.py:154
+msgid "Large"
+msgstr "Stora"
+
+#: src/bildschema/main.py:165 src/bildschema/main.py:166
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: src/bildschema/main.py:169 src/bildschema/main.py:170
+msgid "ARASAAC Cache"
+msgstr "ARASAAC-cache"
+
+#: src/bildschema/main.py:177 src/bildschema/main.py:178
+msgid "Cached pictograms"
+msgstr "Cachade piktogram"
+
+#: src/bildschema/main.py:179 src/bildschema/main.py:180
+msgid "Clear"
+msgstr "Töm"
+
+#: src/bildschema/main.py:188 src/bildschema/main.py:189
+msgid "Developer"
+msgstr "Utvecklare"
+
+#: src/bildschema/main.py:191 src/bildschema/main.py:192
+msgid "Debug mode"
+msgstr "Felsökningsläge"
+
+#: src/bildschema/main.py:192 src/bildschema/main.py:193
+msgid "Show extra logging in terminal"
+msgstr "Visa extra loggning i terminalen"
+
+#: src/bildschema/main.py:221 src/bildschema/main.py:222
+msgid "Cleared"
+msgstr "Tömdes"
+
+#: src/bildschema/main.py:231 src/bildschema/window.py:101
+#: src/bildschema/main.py:241
 msgid "Bildschema"
 msgstr "Bildschema"
 
-#: src/bildschema/window.py:93
+#: src/bildschema/main.py:242 src/bildschema/main.py:252
+msgid "ARASAAC pictograms (https://arasaac.org)"
+msgstr "ARASAAC-piktogram (https://arasaac.org)"
+
+#: src/bildschema/main.py:245 src/bildschema/main.py:255
+msgid ""
+"Visual daily schedules with pictogram support for children with autism and language disorders.\n"
+"\n"
+"Part of the Autismappar suite — free tools for communication and daily structure."
+msgstr ""
+"Visuella dagsscheman med piktogramstöd för barn med autism och språkstörningar.\n"
+"\n"
+"En del av Autismappar-paketet – gratisverktyg för kommunikation och daglig struktur."
+
+#: src/bildschema/main.py:256 src/bildschema/main.py:266
+msgid "Autismappar"
+msgstr "Autismappar"
+
+#: src/bildschema/window.py:16
+msgid "Wake up"
+msgstr "Vakna"
+
+#: src/bildschema/window.py:17
+msgid "Breakfast"
+msgstr "Frukost"
+
+#: src/bildschema/window.py:18
+msgid "Get dressed"
+msgstr "Klä på sig"
+
+#: src/bildschema/window.py:19
+msgid "School"
+msgstr "Skola"
+
+#: src/bildschema/window.py:20
+msgid "Lunch"
+msgstr "Lunch"
+
+#: src/bildschema/window.py:21
+msgid "Play"
+msgstr "Leka"
+
+#: src/bildschema/window.py:22
+msgid "Dinner"
+msgstr "Middag"
+
+#: src/bildschema/window.py:23
+msgid "Bath"
+msgstr "Bada"
+
+#: src/bildschema/window.py:24
+msgid "Bedtime"
+msgstr "Sovdags"
+
+#: src/bildschema/window.py:116
 msgid "Toggle dark/light theme"
 msgstr "Växla mörkt/ljust tema"
 
-#: src/bildschema/window.py:99
+#: src/bildschema/window.py:123 src/bildschema/window.py:124
 msgid "Keyboard Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
-#: src/bildschema/window.py:100
+#: src/bildschema/window.py:124 src/bildschema/window.py:125
 msgid "About Bildschema"
 msgstr "Om Bildschema"
 
-#: src/bildschema/window.py:101
+#: src/bildschema/window.py:125 src/bildschema/window.py:126
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/bildschema/window.py:108
+#: src/bildschema/window.py:132 src/bildschema/window.py:133
 msgid "Add activity"
 msgstr "Lägg till aktivitet"
 
-#: src/bildschema/window.py:115
+#: src/bildschema/window.py:139 src/bildschema/window.py:140
 msgid "Day"
 msgstr "Dag"
 
-#: src/bildschema/window.py:117
+#: src/bildschema/window.py:141 src/bildschema/window.py:142
 msgid "Week"
 msgstr "Vecka"
 
-#: src/bildschema/window.py:172
+#: src/bildschema/window.py:196 src/bildschema/window.py:197
 msgid "completed"
 msgstr "klar"
 
-#: src/bildschema/window.py:178
+#: src/bildschema/window.py:202 src/bildschema/window.py:203
 msgid "Add Activity"
 msgstr "Lägg till aktivitet"
 
-#: src/bildschema/window.py:179
+#: src/bildschema/window.py:203 src/bildschema/window.py:204
 msgid "Enter activity name:"
 msgstr "Ange aktivitetsnamn:"
 
-#: src/bildschema/window.py:181
+#: src/bildschema/window.py:205 src/bildschema/window.py:206
+#: src/bildschema/export.py:145
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/bildschema/window.py:182
+#: src/bildschema/window.py:206 src/bildschema/window.py:207
 msgid "Add"
 msgstr "Lägg till"
 
-#: src/bildschema/window.py:185
+#: src/bildschema/window.py:209 src/bildschema/window.py:210
 msgid "Activity name"
 msgstr "Aktivitetsnamn"
+
+#: src/bildschema/window.py:122 src/bildschema/export.py:142
+msgid "Export Schedule"
+msgstr "Exportera schema"
+
+#: src/bildschema/export.py:26
+msgid "Activity"
+msgstr "Aktivitet"
+
+#: src/bildschema/export.py:26
+msgid "Duration (min)"
+msgstr "Längd (min)"
+
+#: src/bildschema/export.py:26
+msgid "Completed"
+msgstr "Färdig"
+
+#: src/bildschema/export.py:31
+msgid "Yes"
+msgstr "Ja"
+
+#: src/bildschema/export.py:31
+msgid "No"
+msgstr "Nej"
+
+#: src/bildschema/export.py:75
+msgid "Daily Schedule"
+msgstr "Dagligt schema"
+
+#: src/bildschema/export.py:111
+#, python-format
+msgid "%d min"
+msgstr "%d min"
+
+#: src/bildschema/export.py:143
+msgid "Choose export format:"
+msgstr "Välj exportformat:"
+
+#: src/bildschema/export.py:146
+msgid "CSV"
+msgstr "CSV"
+
+#: src/bildschema/export.py:147
+msgid "JSON"
+msgstr "JSON"
+
+#: src/bildschema/export.py:148
+msgid "PDF"
+msgstr "PDF"
+
+#: src/bildschema/export.py:167
+msgid "Save Export"
+msgstr "Spara export"
+
+#: src/bildschema/export.py:182
+#, python-format
+msgid "Exported %s"
+msgstr "Exporterade %s"
+
+#: src/bildschema/export.py:185 src/bildschema/export.py:208
+#, python-format
+msgid "Export error: %s"
+msgstr "Exportfel: %s"
+
+#: src/bildschema/export.py:190
+msgid "Save PDF"
+msgstr "Spara PDF"
+
+#: src/bildschema/export.py:203
+msgid "PDF exported"
+msgstr "PDF exporterad"
+
+#: src/bildschema/export.py:205
+msgid "PDF export requires pycairo"
+msgstr "PDF-export kräver pycairo"
