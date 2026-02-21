@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Daniel Nylander
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the bildschema package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-20 21:09+0100\n"
+"POT-Creation-Date: 2026-02-21 08:20+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,110 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: src/bildschema/window.py:17
-msgid "Wake up"
-msgstr ""
-
-#: src/bildschema/window.py:18
-msgid "Breakfast"
-msgstr ""
-
-#: src/bildschema/window.py:19
-msgid "Get dressed"
-msgstr ""
-
-#: src/bildschema/window.py:20
-msgid "School"
-msgstr ""
-
-#: src/bildschema/window.py:21
-msgid "Lunch"
-msgstr ""
-
-#: src/bildschema/window.py:22
-msgid "Play"
-msgstr ""
-
-#: src/bildschema/window.py:23
-msgid "Dinner"
-msgstr ""
-
-#: src/bildschema/window.py:24
-msgid "Bath"
-msgstr ""
-
-#: src/bildschema/window.py:25
-msgid "Bedtime"
-msgstr ""
-
-#: src/bildschema/window.py:65
-msgid "Read aloud"
-msgstr ""
-
-#: src/bildschema/window.py:109 src/bildschema/main.py:272
-msgid "Bildschema"
-msgstr ""
-
-#: src/bildschema/window.py:124
-msgid "Toggle dark/light theme"
-msgstr ""
-
-#: src/bildschema/window.py:130 src/bildschema/export.py:142
-msgid "Export Schedule"
-msgstr ""
-
-#: src/bildschema/window.py:131 src/bildschema/main.py:128
-msgid "Preferences"
-msgstr ""
-
-#: src/bildschema/window.py:132
-msgid "Keyboard Shortcuts"
-msgstr ""
-
-#: src/bildschema/window.py:133
-msgid "About Bildschema"
-msgstr ""
-
-#: src/bildschema/window.py:134
-msgid "Quit"
-msgstr ""
-
-#: src/bildschema/window.py:141
-msgid "Add activity"
-msgstr ""
-
-#: src/bildschema/window.py:148
-msgid "Day"
-msgstr ""
-
-#: src/bildschema/window.py:150
-msgid "Week"
-msgstr ""
-
-#: src/bildschema/window.py:205
-msgid "completed"
-msgstr ""
-
-#: src/bildschema/window.py:211
-msgid "Add Activity"
-msgstr ""
-
-#: src/bildschema/window.py:212
-msgid "Enter activity name:"
-msgstr ""
-
-#: src/bildschema/window.py:214 src/bildschema/export.py:145
-msgid "Cancel"
-msgstr ""
-
-#: src/bildschema/window.py:215
-msgid "Add"
-msgstr ""
-
-#: src/bildschema/window.py:218
-msgid "Activity name"
-msgstr ""
 
 #: src/bildschema/export.py:26
 msgid "Activity"
@@ -150,8 +46,16 @@ msgstr ""
 msgid "%d min"
 msgstr ""
 
+#: src/bildschema/export.py:142 src/bildschema/window.py:130
+msgid "Export Schedule"
+msgstr ""
+
 #: src/bildschema/export.py:143
 msgid "Choose export format:"
+msgstr ""
+
+#: src/bildschema/export.py:145 src/bildschema/window.py:214
+msgid "Cancel"
 msgstr ""
 
 #: src/bildschema/export.py:146
@@ -197,7 +101,7 @@ msgid "Welcome"
 msgstr ""
 
 #: src/bildschema/main.py:94
-msgid "Welcome to Bildschema"
+msgid "Welcome to Visual Schedule"
 msgstr ""
 
 #: src/bildschema/main.py:96
@@ -212,6 +116,10 @@ msgstr ""
 
 #: src/bildschema/main.py:103
 msgid "Get Started"
+msgstr ""
+
+#: src/bildschema/main.py:128 src/bildschema/window.py:131
+msgid "Preferences"
 msgstr ""
 
 #: src/bildschema/main.py:132
@@ -326,6 +234,10 @@ msgstr ""
 msgid "Cleared"
 msgstr ""
 
+#: src/bildschema/main.py:272 src/bildschema/window.py:109
+msgid "Visual Schedule"
+msgstr ""
+
 #: src/bildschema/main.py:283
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
@@ -341,4 +253,92 @@ msgstr ""
 
 #: src/bildschema/main.py:298
 msgid "Autismappar"
+msgstr ""
+
+#: src/bildschema/window.py:17
+msgid "Wake up"
+msgstr ""
+
+#: src/bildschema/window.py:18
+msgid "Breakfast"
+msgstr ""
+
+#: src/bildschema/window.py:19
+msgid "Get dressed"
+msgstr ""
+
+#: src/bildschema/window.py:20
+msgid "School"
+msgstr ""
+
+#: src/bildschema/window.py:21
+msgid "Lunch"
+msgstr ""
+
+#: src/bildschema/window.py:22
+msgid "Play"
+msgstr ""
+
+#: src/bildschema/window.py:23
+msgid "Dinner"
+msgstr ""
+
+#: src/bildschema/window.py:24
+msgid "Bath"
+msgstr ""
+
+#: src/bildschema/window.py:25
+msgid "Bedtime"
+msgstr ""
+
+#: src/bildschema/window.py:65
+msgid "Read aloud"
+msgstr ""
+
+#: src/bildschema/window.py:124
+msgid "Toggle dark/light theme"
+msgstr ""
+
+#: src/bildschema/window.py:132
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/bildschema/window.py:133
+msgid "About Visual Schedule"
+msgstr ""
+
+#: src/bildschema/window.py:134
+msgid "Quit"
+msgstr ""
+
+#: src/bildschema/window.py:141
+msgid "Add activity"
+msgstr ""
+
+#: src/bildschema/window.py:148
+msgid "Day"
+msgstr ""
+
+#: src/bildschema/window.py:150
+msgid "Week"
+msgstr ""
+
+#: src/bildschema/window.py:205
+msgid "completed"
+msgstr ""
+
+#: src/bildschema/window.py:211
+msgid "Add Activity"
+msgstr ""
+
+#: src/bildschema/window.py:212
+msgid "Enter activity name:"
+msgstr ""
+
+#: src/bildschema/window.py:215
+msgid "Add"
+msgstr ""
+
+#: src/bildschema/window.py:218
+msgid "Activity name"
 msgstr ""
