@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 15:09+0100\n"
+"POT-Creation-Date: 2026-02-21 15:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: src/bildschema/export.py:13 src/bildschema/main.py:272
+#: src/bildschema/window.py:109
+msgid "Visual Schedule"
+msgstr ""
 
 #: src/bildschema/export.py:27
 msgid "Activity"
@@ -232,10 +237,6 @@ msgstr ""
 
 #: src/bildschema/main.py:253
 msgid "Cleared"
-msgstr ""
-
-#: src/bildschema/main.py:272 src/bildschema/window.py:109
-msgid "Visual Schedule"
 msgstr ""
 
 #: src/bildschema/main.py:283

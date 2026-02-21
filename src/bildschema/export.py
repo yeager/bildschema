@@ -10,7 +10,7 @@ _ = gettext.gettext
 
 from bildschema import __version__
 
-APP_LABEL = "Bildschema"
+APP_LABEL = _("Visual Schedule")
 AUTHOR = "Daniel Nylander"
 WEBSITE = "www.autismappar.se"
 
