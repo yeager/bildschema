@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 08:20+0100\n"
+"POT-Creation-Date: 2026-02-21 15:09+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,82 +17,82 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/bildschema/export.py:26
+#: src/bildschema/export.py:27
 msgid "Activity"
 msgstr ""
 
-#: src/bildschema/export.py:26
+#: src/bildschema/export.py:27
 msgid "Duration (min)"
 msgstr ""
 
-#: src/bildschema/export.py:26
+#: src/bildschema/export.py:27
 msgid "Completed"
 msgstr ""
 
-#: src/bildschema/export.py:31
+#: src/bildschema/export.py:32
 msgid "Yes"
 msgstr ""
 
-#: src/bildschema/export.py:31
+#: src/bildschema/export.py:32
 msgid "No"
 msgstr ""
 
-#: src/bildschema/export.py:75
+#: src/bildschema/export.py:76
 msgid "Daily Schedule"
 msgstr ""
 
-#: src/bildschema/export.py:111
+#: src/bildschema/export.py:112
 #, python-format
 msgid "%d min"
 msgstr ""
 
-#: src/bildschema/export.py:142 src/bildschema/window.py:130
+#: src/bildschema/export.py:143 src/bildschema/window.py:130
 msgid "Export Schedule"
 msgstr ""
 
-#: src/bildschema/export.py:143
+#: src/bildschema/export.py:144
 msgid "Choose export format:"
 msgstr ""
 
-#: src/bildschema/export.py:145 src/bildschema/window.py:214
+#: src/bildschema/export.py:146 src/bildschema/window.py:214
 msgid "Cancel"
 msgstr ""
 
-#: src/bildschema/export.py:146
+#: src/bildschema/export.py:147
 msgid "CSV"
 msgstr ""
 
-#: src/bildschema/export.py:147
+#: src/bildschema/export.py:148
 msgid "JSON"
 msgstr ""
 
-#: src/bildschema/export.py:148
+#: src/bildschema/export.py:149
 msgid "PDF"
 msgstr ""
 
-#: src/bildschema/export.py:167
+#: src/bildschema/export.py:168
 msgid "Save Export"
 msgstr ""
 
-#: src/bildschema/export.py:182
+#: src/bildschema/export.py:183
 #, python-format
 msgid "Exported %s"
 msgstr ""
 
-#: src/bildschema/export.py:185 src/bildschema/export.py:208
+#: src/bildschema/export.py:186 src/bildschema/export.py:209
 #, python-format
 msgid "Export error: %s"
 msgstr ""
 
-#: src/bildschema/export.py:190
+#: src/bildschema/export.py:191
 msgid "Save PDF"
 msgstr ""
 
-#: src/bildschema/export.py:203
+#: src/bildschema/export.py:204
 msgid "PDF exported"
 msgstr ""
 
-#: src/bildschema/export.py:205
+#: src/bildschema/export.py:206
 msgid "PDF export requires pycairo"
 msgstr ""
 
