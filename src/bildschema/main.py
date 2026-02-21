@@ -11,6 +11,7 @@ from gi.repository import Gtk, Adw, Gio, GLib
 
 from bildschema import __version__
 from bildschema.window import BildschemaWindow
+from bildschema.accessibility import apply_large_text
 
 TEXTDOMAIN = "bildschema"
 gettext.textdomain(TEXTDOMAIN)
@@ -44,6 +45,7 @@ class BildschemaApp(Adw.Application):
         self.settings = _load_settings()
 
     def do_activate(self):
+        apply_large_text()
         win = self.props.active_window or BildschemaWindow(application=self)
         self._apply_theme()
         self._apply_tts_settings()
