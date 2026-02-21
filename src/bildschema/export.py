@@ -12,6 +12,7 @@ from bildschema import __version__
 
 APP_LABEL = "Bildschema"
 AUTHOR = "Daniel Nylander"
+WEBSITE = "www.autismappar.se"
 
 import gi
 gi.require_version('Gtk', '4.0')
@@ -31,7 +32,7 @@ def activities_to_csv(activities):
             _("Yes") if act.get("done") else _("No"),
         ])
     writer.writerow([])
-    writer.writerow([f"{APP_LABEL} v{__version__} — {AUTHOR}"])
+    writer.writerow([f"{APP_LABEL} v{__version__} — {WEBSITE}"])
     return output.getvalue()
 
 
@@ -130,7 +131,7 @@ def activities_to_pdf(activities, output_path):
     ctx.set_font_size(9)
     ctx.set_source_rgb(0.5, 0.5, 0.5)
     ctx.move_to(40, height - 20)
-    ctx.show_text(f"{APP_LABEL} v{__version__} — {AUTHOR} — {datetime.now().strftime('%Y-%m-%d')}")
+    ctx.show_text(f"{APP_LABEL} v{__version__} — {WEBSITE} — {datetime.now().strftime('%Y-%m-%d')}")
 
     surface.finish()
     return True
