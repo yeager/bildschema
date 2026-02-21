@@ -91,7 +91,7 @@ class BildschemaApp(Adw.Application):
 
         page = Adw.StatusPage()
         page.set_icon_name("bildschema")
-        page.set_title(_("Welcome to Bildschema"))
+        page.set_title(_("Welcome to Visual Schedule"))
         page.set_description(_(
             "Create visual daily schedules with pictures.\n\n"
             "✓ Add activities with times and pictograms\n"
@@ -269,7 +269,7 @@ class BildschemaApp(Adw.Application):
 
     def _on_about(self, *_):
         about = Adw.AboutDialog(
-            application_name=_("Bildschema"),
+            application_name=_("Visual Schedule"),
             application_icon="bildschema",
             version=__version__,
             developer_name="Daniel Nylander",
