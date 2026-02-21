@@ -106,7 +106,7 @@ class ActivityCard(Gtk.Box):
 class BildschemaWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs, default_width=500, default_height=700,
-                         title=_("Bildschema"))
+                         title=_("Visual Schedule"))
         self.activities = list(SAMPLE_ACTIVITIES)
         self._build_ui()
         self._start_clock()
@@ -130,7 +130,7 @@ class BildschemaWindow(Adw.ApplicationWindow):
         menu.append(_("Export Schedule"), "app.export")
         menu.append(_("Preferences"), "app.preferences")
         menu.append(_("Keyboard Shortcuts"), "app.shortcuts")
-        menu.append(_("About Bildschema"), "app.about")
+        menu.append(_("About Visual Schedule"), "app.about")
         menu.append(_("Quit"), "app.quit")
         menu_btn = Gtk.MenuButton(icon_name="open-menu-symbolic",
                                   menu_model=menu)
