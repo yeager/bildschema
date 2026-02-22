@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the bildschema package.
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: bildschema\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 08:20+0100\n"
+"POT-Creation-Date: 2026-02-21 20:53+0100\n"
 "PO-Revision-Date: 2026-02-18 09:21+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/danielnylander/teams/304956/sv/)\n"
@@ -21,94 +21,98 @@ msgstr ""
 "Language: sv\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/bildschema/export.py:26
+#: src/export.py:13 src/main.py:274 src/window.py:109
+msgid "Visual Schedule"
+msgstr "Bildschema"
+
+#: src/export.py:27
 msgid "Activity"
 msgstr "Aktivitet"
 
-#: src/bildschema/export.py:26
+#: src/export.py:27
 msgid "Duration (min)"
 msgstr "Längd (min)"
 
-#: src/bildschema/export.py:26
+#: src/export.py:27
 msgid "Completed"
 msgstr "Färdig"
 
-#: src/bildschema/export.py:31
+#: src/export.py:32
 msgid "Yes"
 msgstr "Ja"
 
-#: src/bildschema/export.py:31
+#: src/export.py:32
 msgid "No"
 msgstr "Nej"
 
-#: src/bildschema/export.py:75
+#: src/export.py:76
 msgid "Daily Schedule"
 msgstr "Dagligt schema"
 
-#: src/bildschema/export.py:111
+#: src/export.py:112
 #, python-format
 msgid "%d min"
 msgstr "%d min"
 
-#: src/bildschema/export.py:142 src/bildschema/window.py:130
+#: src/export.py:143 src/window.py:130
 msgid "Export Schedule"
 msgstr "Exportera schema"
 
-#: src/bildschema/export.py:143
+#: src/export.py:144
 msgid "Choose export format:"
 msgstr "Välj exportformat:"
 
-#: src/bildschema/export.py:145 src/bildschema/window.py:214
+#: src/export.py:146 src/window.py:214
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: src/bildschema/export.py:146
+#: src/export.py:147
 msgid "CSV"
 msgstr "CSV"
 
-#: src/bildschema/export.py:147
+#: src/export.py:148
 msgid "JSON"
 msgstr "JSON"
 
-#: src/bildschema/export.py:148
+#: src/export.py:149
 msgid "PDF"
 msgstr "PDF"
 
-#: src/bildschema/export.py:167
+#: src/export.py:168
 msgid "Save Export"
 msgstr "Spara export"
 
-#: src/bildschema/export.py:182
+#: src/export.py:183
 #, python-format
 msgid "Exported %s"
 msgstr "Exporterade %s"
 
-#: src/bildschema/export.py:185 src/bildschema/export.py:208
+#: src/export.py:186 src/export.py:209
 #, python-format
 msgid "Export error: %s"
 msgstr "Exportfel: %s"
 
-#: src/bildschema/export.py:190
+#: src/export.py:191
 msgid "Save PDF"
 msgstr "Spara PDF"
 
-#: src/bildschema/export.py:203
+#: src/export.py:204
 msgid "PDF exported"
 msgstr "PDF exporterad"
 
-#: src/bildschema/export.py:205
+#: src/export.py:206
 msgid "PDF export requires pycairo"
 msgstr "PDF-export kräver pycairo"
 
-#: src/bildschema/main.py:88
+#: src/main.py:90
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: src/bildschema/main.py:94
+#: src/main.py:96
 msgid "Welcome to Visual Schedule"
 msgstr "Välkommen till Bildschema"
 
-#: src/bildschema/main.py:96
+#: src/main.py:98
 msgid ""
 "Create visual daily schedules with pictures.\n"
 "\n"
@@ -124,135 +128,131 @@ msgstr ""
 "✓ Sök bland över 13 000 ARASAAC-piktogram\n"
 "✓ Sök på svenska eller engelska"
 
-#: src/bildschema/main.py:103
+#: src/main.py:105
 msgid "Get Started"
 msgstr "Kom igång"
 
-#: src/bildschema/main.py:128 src/bildschema/window.py:131
+#: src/main.py:130 src/window.py:131
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: src/bildschema/main.py:132
+#: src/main.py:134
 msgid "General"
 msgstr "Allmänt"
 
-#: src/bildschema/main.py:136
+#: src/main.py:138
 msgid "Appearance"
 msgstr "Utseende"
 
-#: src/bildschema/main.py:140
+#: src/main.py:142
 msgid "Theme"
 msgstr "Tema"
 
-#: src/bildschema/main.py:141
+#: src/main.py:143
 msgid "Choose light, dark, or follow system"
 msgstr "Välj ljust, mörkt eller följ systemet"
 
-#: src/bildschema/main.py:143
+#: src/main.py:145
 msgid "System"
 msgstr "System"
 
-#: src/bildschema/main.py:143
+#: src/main.py:145
 msgid "Light"
 msgstr "Ljust"
 
-#: src/bildschema/main.py:143
+#: src/main.py:145
 msgid "Dark"
 msgstr "Mörkt"
 
-#: src/bildschema/main.py:152
+#: src/main.py:154
 msgid "Icon Size"
 msgstr "Ikonstorlek"
 
-#: src/bildschema/main.py:153
+#: src/main.py:155
 msgid "Size of pictogram icons"
 msgstr "Storlek på piktogramikoner"
 
-#: src/bildschema/main.py:155
+#: src/main.py:157
 msgid "Small"
 msgstr "Små"
 
-#: src/bildschema/main.py:155
+#: src/main.py:157
 msgid "Medium"
 msgstr "Medel"
 
-#: src/bildschema/main.py:155
+#: src/main.py:157
 msgid "Large"
 msgstr "Stora"
 
-#: src/bildschema/main.py:166
+#: src/main.py:168
 msgid "Speech"
 msgstr "Tal"
 
-#: src/bildschema/main.py:169
+#: src/main.py:171
 msgid "Speech Engine"
 msgstr "Talmotor"
 
-#: src/bildschema/main.py:170
+#: src/main.py:172
 msgid "Piper gives natural voices, espeak is robotic but lightweight"
 msgstr "Piper ger naturliga röster, espeak är robotlik men lättviktig."
 
-#: src/bildschema/main.py:172
+#: src/main.py:174
 msgid "Automatic"
 msgstr "Automatiskt"
 
-#: src/bildschema/main.py:172
+#: src/main.py:174
 msgid "Piper (natural)"
 msgstr "Piper (naturlig)"
 
-#: src/bildschema/main.py:172
+#: src/main.py:174
 msgid "espeak-ng (robotic)"
 msgstr "espeak-ng (robotlik)"
 
-#: src/bildschema/main.py:180
+#: src/main.py:182
 msgid "Speech Speed"
 msgstr "Talhastighet"
 
-#: src/bildschema/main.py:181
+#: src/main.py:183
 msgid "Slower speech can be easier to understand"
 msgstr "Långsammare tal kan vara lättare att förstå"
 
-#: src/bildschema/main.py:197
+#: src/main.py:199
 msgid "Advanced"
 msgstr "Avancerat"
 
-#: src/bildschema/main.py:201
+#: src/main.py:203
 msgid "ARASAAC Cache"
 msgstr "ARASAAC-cache"
 
-#: src/bildschema/main.py:209
+#: src/main.py:211
 msgid "Cached pictograms"
 msgstr "Cachade piktogram"
 
-#: src/bildschema/main.py:211
+#: src/main.py:213
 msgid "Clear"
 msgstr "Töm"
 
-#: src/bildschema/main.py:220
+#: src/main.py:222
 msgid "Developer"
 msgstr "Utvecklare"
 
-#: src/bildschema/main.py:223
+#: src/main.py:225
 msgid "Debug mode"
 msgstr "Felsökningsläge"
 
-#: src/bildschema/main.py:224
+#: src/main.py:226
 msgid "Show extra logging in terminal"
 msgstr "Visa extra loggning i terminalen"
 
-#: src/bildschema/main.py:253
+#: src/main.py:255
 msgid "Cleared"
 msgstr "Tömdes"
 
-#: src/bildschema/main.py:272 src/bildschema/window.py:109
-msgid "Visual Schedule"
-msgstr "Bildschema"
-
-#: src/bildschema/main.py:283
+#: src/main.py:285
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr "ARASAAC-piktogram (https://arasaac.org)"
 
-#: src/bildschema/main.py:286
+#: src/main.py:288
 msgid ""
 "Visual daily schedules with pictogram support for children with autism and language disorders.\n"
 "\n"
@@ -262,94 +262,94 @@ msgstr ""
 "\n"
 "En del av Autismappar-paketet – gratisverktyg för kommunikation och daglig struktur."
 
-#: src/bildschema/main.py:298
+#: src/main.py:300
 msgid "Autismappar"
 msgstr "Autismappar"
 
-#: src/bildschema/window.py:17
+#: src/window.py:17
 msgid "Wake up"
 msgstr "Vakna"
 
-#: src/bildschema/window.py:18
+#: src/window.py:18
 msgid "Breakfast"
 msgstr "Frukost"
 
-#: src/bildschema/window.py:19
+#: src/window.py:19
 msgid "Get dressed"
 msgstr "Klä på sig"
 
-#: src/bildschema/window.py:20
+#: src/window.py:20
 msgid "School"
 msgstr "Skola"
 
-#: src/bildschema/window.py:21
+#: src/window.py:21
 msgid "Lunch"
 msgstr "Lunch"
 
-#: src/bildschema/window.py:22
+#: src/window.py:22
 msgid "Play"
 msgstr "Leka"
 
-#: src/bildschema/window.py:23
+#: src/window.py:23
 msgid "Dinner"
 msgstr "Middag"
 
-#: src/bildschema/window.py:24
+#: src/window.py:24
 msgid "Bath"
 msgstr "Bada"
 
-#: src/bildschema/window.py:25
+#: src/window.py:25
 msgid "Bedtime"
 msgstr "Sovdags"
 
-#: src/bildschema/window.py:65
+#: src/window.py:65
 msgid "Read aloud"
 msgstr "Läs högt"
 
-#: src/bildschema/window.py:124
+#: src/window.py:124
 msgid "Toggle dark/light theme"
 msgstr "Växla mörkt/ljust tema"
 
-#: src/bildschema/window.py:132
+#: src/window.py:132
 msgid "Keyboard Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
-#: src/bildschema/window.py:133
+#: src/window.py:133
 msgid "About Visual Schedule"
 msgstr "Om Bildschema"
 
-#: src/bildschema/window.py:134
+#: src/window.py:134
 msgid "Quit"
 msgstr "Avsluta"
 
-#: src/bildschema/window.py:141
+#: src/window.py:141
 msgid "Add activity"
 msgstr "Lägg till aktivitet"
 
-#: src/bildschema/window.py:148
+#: src/window.py:148
 msgid "Day"
 msgstr "Dag"
 
-#: src/bildschema/window.py:150
+#: src/window.py:150
 msgid "Week"
 msgstr "Vecka"
 
-#: src/bildschema/window.py:205
+#: src/window.py:205
 msgid "completed"
 msgstr "klar"
 
-#: src/bildschema/window.py:211
+#: src/window.py:211
 msgid "Add Activity"
 msgstr "Lägg till aktivitet"
 
-#: src/bildschema/window.py:212
+#: src/window.py:212
 msgid "Enter activity name:"
 msgstr "Ange aktivitetsnamn:"
 
-#: src/bildschema/window.py:215
+#: src/window.py:215
 msgid "Add"
 msgstr "Lägg till"
 
-#: src/bildschema/window.py:218
+#: src/window.py:218
 msgid "Activity name"
 msgstr "Aktivitetsnamn"
