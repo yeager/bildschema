@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bildschema"
-version = "0.3.4"
+version = "0.3.5"
 description = "Visual daily schedule with image support for children with autism"
 requires-python = ">=3.10"
 license = "GPL-3.0-or-later"
