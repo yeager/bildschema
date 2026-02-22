@@ -23,3 +23,8 @@ GPL-3.0
 ## Author
 
 Daniel Nylander — [danielnylander.se](https://danielnylander.se)
+
+## Screenshots
+
+![bildschema](screenshots/bildschema.png)
+
