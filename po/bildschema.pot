@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the bildschema package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: bildschema\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-21 20:53+0100\n"
+"POT-Creation-Date: 2026-02-22 17:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,98 +17,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/export.py:13 src/main.py:274 src/window.py:109
+#: src/bildschema/export.py:13 src/bildschema/main.py:275
+#: src/bildschema/window.py:109
 msgid "Visual Schedule"
 msgstr ""
 
-#: src/export.py:27
+#: src/bildschema/export.py:27
 msgid "Activity"
 msgstr ""
 
-#: src/export.py:27
+#: src/bildschema/export.py:27
 msgid "Duration (min)"
 msgstr ""
 
-#: src/export.py:27
+#: src/bildschema/export.py:27
 msgid "Completed"
 msgstr ""
 
-#: src/export.py:32
+#: src/bildschema/export.py:32
 msgid "Yes"
 msgstr ""
 
-#: src/export.py:32
+#: src/bildschema/export.py:32
 msgid "No"
 msgstr ""
 
-#: src/export.py:76
+#: src/bildschema/export.py:76
 msgid "Daily Schedule"
 msgstr ""
 
-#: src/export.py:112
+#: src/bildschema/export.py:112
 #, python-format
 msgid "%d min"
 msgstr ""
 
-#: src/export.py:143 src/window.py:130
+#: src/bildschema/export.py:143 src/bildschema/window.py:130
 msgid "Export Schedule"
 msgstr ""
 
-#: src/export.py:144
+#: src/bildschema/export.py:144
 msgid "Choose export format:"
 msgstr ""
 
-#: src/export.py:146 src/window.py:214
+#: src/bildschema/export.py:146 src/bildschema/window.py:214
 msgid "Cancel"
 msgstr ""
 
-#: src/export.py:147
+#: src/bildschema/export.py:147
 msgid "CSV"
 msgstr ""
 
-#: src/export.py:148
+#: src/bildschema/export.py:148
 msgid "JSON"
 msgstr ""
 
-#: src/export.py:149
+#: src/bildschema/export.py:149
 msgid "PDF"
 msgstr ""
 
-#: src/export.py:168
+#: src/bildschema/export.py:168
 msgid "Save Export"
 msgstr ""
 
-#: src/export.py:183
+#: src/bildschema/export.py:183
 #, python-format
 msgid "Exported %s"
 msgstr ""
 
-#: src/export.py:186 src/export.py:209
+#: src/bildschema/export.py:186 src/bildschema/export.py:209
 #, python-format
 msgid "Export error: %s"
 msgstr ""
 
-#: src/export.py:191
+#: src/bildschema/export.py:191
 msgid "Save PDF"
 msgstr ""
 
-#: src/export.py:204
+#: src/bildschema/export.py:204
 msgid "PDF exported"
 msgstr ""
 
-#: src/export.py:206
+#: src/bildschema/export.py:206
 msgid "PDF export requires pycairo"
 msgstr ""
 
-#: src/main.py:90
+#: src/bildschema/main.py:91
 msgid "Welcome"
 msgstr ""
 
-#: src/main.py:96
+#: src/bildschema/main.py:97
 msgid "Welcome to Visual Schedule"
 msgstr ""
 
-#: src/main.py:98
+#: src/bildschema/main.py:99
 msgid ""
 "Create visual daily schedules with pictures.\n"
 "\n"
@@ -118,131 +119,131 @@ msgid ""
 "✓ Search in Swedish or English"
 msgstr ""
 
-#: src/main.py:105
+#: src/bildschema/main.py:106
 msgid "Get Started"
 msgstr ""
 
-#: src/main.py:130 src/window.py:131
+#: src/bildschema/main.py:131 src/bildschema/window.py:131
 msgid "Preferences"
 msgstr ""
 
-#: src/main.py:134
+#: src/bildschema/main.py:135
 msgid "General"
 msgstr ""
 
-#: src/main.py:138
+#: src/bildschema/main.py:139
 msgid "Appearance"
 msgstr ""
 
-#: src/main.py:142
+#: src/bildschema/main.py:143
 msgid "Theme"
 msgstr ""
 
-#: src/main.py:143
+#: src/bildschema/main.py:144
 msgid "Choose light, dark, or follow system"
 msgstr ""
 
-#: src/main.py:145
+#: src/bildschema/main.py:146
 msgid "System"
 msgstr ""
 
-#: src/main.py:145
+#: src/bildschema/main.py:146
 msgid "Light"
 msgstr ""
 
-#: src/main.py:145
+#: src/bildschema/main.py:146
 msgid "Dark"
 msgstr ""
 
-#: src/main.py:154
+#: src/bildschema/main.py:155
 msgid "Icon Size"
 msgstr ""
 
-#: src/main.py:155
+#: src/bildschema/main.py:156
 msgid "Size of pictogram icons"
 msgstr ""
 
-#: src/main.py:157
+#: src/bildschema/main.py:158
 msgid "Small"
 msgstr ""
 
-#: src/main.py:157
+#: src/bildschema/main.py:158
 msgid "Medium"
 msgstr ""
 
-#: src/main.py:157
+#: src/bildschema/main.py:158
 msgid "Large"
 msgstr ""
 
-#: src/main.py:168
+#: src/bildschema/main.py:169
 msgid "Speech"
 msgstr ""
 
-#: src/main.py:171
+#: src/bildschema/main.py:172
 msgid "Speech Engine"
 msgstr ""
 
-#: src/main.py:172
+#: src/bildschema/main.py:173
 msgid "Piper gives natural voices, espeak is robotic but lightweight"
 msgstr ""
 
-#: src/main.py:174
+#: src/bildschema/main.py:175
 msgid "Automatic"
 msgstr ""
 
-#: src/main.py:174
+#: src/bildschema/main.py:175
 msgid "Piper (natural)"
 msgstr ""
 
-#: src/main.py:174
+#: src/bildschema/main.py:175
 msgid "espeak-ng (robotic)"
 msgstr ""
 
-#: src/main.py:182
+#: src/bildschema/main.py:183
 msgid "Speech Speed"
 msgstr ""
 
-#: src/main.py:183
+#: src/bildschema/main.py:184
 msgid "Slower speech can be easier to understand"
 msgstr ""
 
-#: src/main.py:199
+#: src/bildschema/main.py:200
 msgid "Advanced"
 msgstr ""
 
-#: src/main.py:203
+#: src/bildschema/main.py:204
 msgid "ARASAAC Cache"
 msgstr ""
 
-#: src/main.py:211
+#: src/bildschema/main.py:212
 msgid "Cached pictograms"
 msgstr ""
 
-#: src/main.py:213
+#: src/bildschema/main.py:214
 msgid "Clear"
 msgstr ""
 
-#: src/main.py:222
+#: src/bildschema/main.py:223
 msgid "Developer"
 msgstr ""
 
-#: src/main.py:225
+#: src/bildschema/main.py:226
 msgid "Debug mode"
 msgstr ""
 
-#: src/main.py:226
+#: src/bildschema/main.py:227
 msgid "Show extra logging in terminal"
 msgstr ""
 
-#: src/main.py:255
+#: src/bildschema/main.py:256
 msgid "Cleared"
 msgstr ""
 
-#: src/main.py:285
+#: src/bildschema/main.py:286
 msgid "ARASAAC pictograms (https://arasaac.org)"
 msgstr ""
 
-#: src/main.py:288
+#: src/bildschema/main.py:289
 msgid ""
 "Visual daily schedules with pictogram support for children with autism and "
 "language disorders.\n"
@@ -251,94 +252,94 @@ msgid ""
 "structure."
 msgstr ""
 
-#: src/main.py:300
+#: src/bildschema/main.py:301
 msgid "Autismappar"
 msgstr ""
 
-#: src/window.py:17
+#: src/bildschema/window.py:17
 msgid "Wake up"
 msgstr ""
 
-#: src/window.py:18
+#: src/bildschema/window.py:18
 msgid "Breakfast"
 msgstr ""
 
-#: src/window.py:19
+#: src/bildschema/window.py:19
 msgid "Get dressed"
 msgstr ""
 
-#: src/window.py:20
+#: src/bildschema/window.py:20
 msgid "School"
 msgstr ""
 
-#: src/window.py:21
+#: src/bildschema/window.py:21
 msgid "Lunch"
 msgstr ""
 
-#: src/window.py:22
+#: src/bildschema/window.py:22
 msgid "Play"
 msgstr ""
 
-#: src/window.py:23
+#: src/bildschema/window.py:23
 msgid "Dinner"
 msgstr ""
 
-#: src/window.py:24
+#: src/bildschema/window.py:24
 msgid "Bath"
 msgstr ""
 
-#: src/window.py:25
+#: src/bildschema/window.py:25
 msgid "Bedtime"
 msgstr ""
 
-#: src/window.py:65
+#: src/bildschema/window.py:65
 msgid "Read aloud"
 msgstr ""
 
-#: src/window.py:124
+#: src/bildschema/window.py:124
 msgid "Toggle dark/light theme"
 msgstr ""
 
-#: src/window.py:132
+#: src/bildschema/window.py:132
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: src/window.py:133
+#: src/bildschema/window.py:133
 msgid "About Visual Schedule"
 msgstr ""
 
-#: src/window.py:134
+#: src/bildschema/window.py:134
 msgid "Quit"
 msgstr ""
 
-#: src/window.py:141
+#: src/bildschema/window.py:141
 msgid "Add activity"
 msgstr ""
 
-#: src/window.py:148
+#: src/bildschema/window.py:148
 msgid "Day"
 msgstr ""
 
-#: src/window.py:150
+#: src/bildschema/window.py:150
 msgid "Week"
 msgstr ""
 
-#: src/window.py:205
+#: src/bildschema/window.py:205
 msgid "completed"
 msgstr ""
 
-#: src/window.py:211
+#: src/bildschema/window.py:211
 msgid "Add Activity"
 msgstr ""
 
-#: src/window.py:212
+#: src/bildschema/window.py:212
 msgid "Enter activity name:"
 msgstr ""
 
-#: src/window.py:215
+#: src/bildschema/window.py:215
 msgid "Add"
 msgstr ""
 
-#: src/window.py:218
+#: src/bildschema/window.py:218
 msgid "Activity name"
 msgstr ""
