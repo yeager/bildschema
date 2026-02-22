@@ -21,7 +21,6 @@ _ = gettext.gettext
 APP_ID = "se.yeager.bildschema"
 CONFIG_DIR = Path(GLib.get_user_config_dir()) / "bildschema"
 
-
 def _load_settings():
     path = CONFIG_DIR / "settings.json"
     if path.exists():
@@ -31,12 +30,10 @@ def _load_settings():
             pass
     return {}
 
-
 def _save_settings(settings):
     CONFIG_DIR.mkdir(parents=True, exist_ok=True)
     (CONFIG_DIR / "settings.json").write_text(
         json.dumps(settings, indent=2, ensure_ascii=False))
-
 
 class BildschemaApp(Adw.Application):
     def __init__(self):
@@ -279,7 +276,6 @@ class BildschemaApp(Adw.Application):
             website="https://github.com/yeager/bildschema",
             issue_url="https://github.com/yeager/bildschema/issues",
             support_url="https://www.autismappar.se",
-            translate_url="https://app.transifex.com/danielnylander/bildschema",
             license_type=Gtk.License.GPL_3_0,
             developers=["Daniel Nylander <daniel@danielnylander.se>"],
             documenters=["Daniel Nylander"],
@@ -304,6 +300,8 @@ class BildschemaApp(Adw.Application):
         about.add_link("ARASAAC", "https://arasaac.org")
         about.add_link("Piper TTS", "https://github.com/rhasspy/piper")
         about.add_link("espeak-ng", "https://github.com/espeak-ng/espeak-ng")
+        about.add_link(_("Help translate"), "https://app.transifex.com/danielnylander/bildschema")
+
         about.present(self.props.active_window)
 
     # ── Shortcuts ────────────────────────────────────────────
@@ -359,11 +357,9 @@ class BildschemaApp(Adw.Application):
         win.set_transient_for(self.props.active_window)
         win.present()
 
-
 def main():
     app = BildschemaApp()
     app.run(sys.argv)
-
 
 # --- Session restore ---
 import json as _json
@@ -391,7 +387,6 @@ def _restore_session(window, app_name):
     except (FileNotFoundError, _json.JSONDecodeError, OSError):
         pass
 
-
 # --- Fullscreen toggle (F11) ---
 def _setup_fullscreen(window, app):
     """Add F11 fullscreen toggle."""
@@ -403,7 +398,6 @@ def _setup_fullscreen(window, app):
         ))
         app.add_action(action)
         app.set_accels_for_action('app.toggle-fullscreen', ['F11'])
-
 
 # --- Plugin system ---
 import importlib.util
@@ -426,7 +420,6 @@ def _load_plugins(app_name):
             except Exception as e:
                 print(f"Plugin {fname}: {e}")
     return plugins
-
 
 # --- Sound notifications ---
 def _play_sound(sound_name='complete'):
