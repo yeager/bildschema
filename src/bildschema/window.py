@@ -8,7 +8,7 @@ gi.require_version('Adw', '1')
 from gi.repository import Gtk, Adw, Gio, GLib, Gdk, GdkPixbuf
 
 from . import arasaac
-from .tts import speak
+from .tts import speak, get_current_lang
 
 _ = gettext.gettext
 
@@ -63,7 +63,7 @@ class ActivityCard(Gtk.Box):
         speak_btn.add_css_class("flat")
         speak_btn.add_css_class("circular")
         speak_btn.set_tooltip_text(_("Read aloud"))
-        speak_btn.connect("clicked", lambda _: speak(activity["name"], "sv"))
+        speak_btn.connect("clicked", lambda _: speak(activity["name"], get_current_lang()))
         hbox.append(speak_btn)
 
         self.check = Gtk.CheckButton()
