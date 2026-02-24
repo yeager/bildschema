@@ -38,6 +38,7 @@ def _save_settings(settings):
 class BildschemaApp(Adw.Application):
     def __init__(self):
         super().__init__(application_id=APP_ID,
+        GLib.set_application_name(_("Visual Schedule"))
                          flags=Gio.ApplicationFlags.DEFAULT_FLAGS)
         self.set_resource_base_path("/se/yeager/bildschema")
         self.settings = _load_settings()

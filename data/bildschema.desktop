@@ -7,4 +7,5 @@ Exec=bildschema
 Icon=se.danielnylander.bildschema
 Terminal=false
 Type=Application
+StartupWMClass=se.yeager.bildschema
 Categories=Education;Accessibility;
