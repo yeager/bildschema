@@ -1,3 +1,5 @@
+> **⚠️ This app has been migrated to the Autismappar PWA at https://autismappar.se**
+
 # Bildschema
 
 Visual daily schedule with ARASAAC pictograms for children with autism.
@@ -27,4 +29,3 @@ Daniel Nylander — [danielnylander.se](https://danielnylander.se)
 ## Screenshots
 
 ![bildschema](screenshots/bildschema.png)
-
